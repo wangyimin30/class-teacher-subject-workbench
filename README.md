@@ -82,7 +82,8 @@ npm run start
 
 如果只运行前端预览：
 
-```npm run dev
+```bash
+npm run dev
 ```
 
 如果需要打包 Mac 版本：
