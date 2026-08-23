@@ -77,15 +77,19 @@
 
 ```bash
 npm install
-npm run start```
+npm run start
+```
 
 如果只运行前端预览：
-```npm run dev```
+```npm run dev
+```
 
 如果需要打包 Mac 版本：
 ```npm run build
-npx electron-builder --mac dmg --arm64```
+npx electron-builder --mac dmg --arm64
+```
 
 如果需要打包 Windows 版本：
 ```npm run build
-npx electron-builder --win --x64```
+npx electron-builder --win --x64
+```
