@@ -5,8 +5,6 @@ release/
 
 # Student data — never commit real student records, photos, or documents
 data/
-预备5班学生名单.xlsx
-预备6班学生名单.xlsx
 班级基础信息*.xlsx
 
 # OS/editor files
