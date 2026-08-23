@@ -77,29 +77,24 @@
 
 ```bash
 npm install
-npm run start
+npm run start```
+
 如果只运行前端预览：
-npm run dev
+```npm run dev```
 如果需要打包 Mac 版本：
-npm run build
-npx electron-builder --mac dmg --arm64
+```npm run build
+npx electron-builder --mac dmg --arm64```
 如果需要打包 Windows 版本：
-npm run build
-npx electron-builder --win --x64
-隐私与数据安全
-请注意：
-不要将真实学生名单上传到公开仓库
-不要上传本地数据库文件
-不要上传家访资料、请假条、学生简历等隐私文件
-不要上传 data、release、dist、node_modules 等目录
-建议将仓库设置为 Private，尤其是在项目涉及真实班级数据或学校工作材料时。
-技术栈
+```npm run build
+npx electron-builder --win --x64```
+
+## 技术栈
 Electron
 React
 Vite
 SQLite / 本地数据库
 Excel、Word、PDF、图片等本地文件处理能力
-当前版本
+
+## 当前版本
 v0.1.0
 首个可用版本，包含班主任工作台与学科教学工作台的主要功能。
-```
