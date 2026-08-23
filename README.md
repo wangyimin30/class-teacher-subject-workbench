@@ -81,20 +81,11 @@ npm run start```
 
 如果只运行前端预览：
 ```npm run dev```
+
 如果需要打包 Mac 版本：
 ```npm run build
 npx electron-builder --mac dmg --arm64```
+
 如果需要打包 Windows 版本：
 ```npm run build
 npx electron-builder --win --x64```
-
-## 技术栈
-Electron
-React
-Vite
-SQLite / 本地数据库
-Excel、Word、PDF、图片等本地文件处理能力
-
-## 当前版本
-v0.1.0
-首个可用版本，包含班主任工作台与学科教学工作台的主要功能。
